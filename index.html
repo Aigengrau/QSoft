@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet"  href="style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>Test</title>
   </head>
   <body>
     <header class="header">
       <div class="head">
-        <div class="head__logo"></div>
-        <div class="head__search-form">
+        <div class="head-mobile">
+          <div class="head__logo"></div>
+          <div class="head__profile-mobile">
+            <img src="src/user.png" alt="user" />
+          </div>
+        </div>
+          <div class="head__search-form">
           <img src="src/search.png" alt="search" />
           <input type="search" placeholder="Найти..." />
         </div>
@@ -20,6 +25,10 @@
           <div class="head__profile-name">Пользователь</div>
           <div class="head__profile-picture"></div>
         </div>
+      </div>
+      <div class="head__search-form-mobile">
+        <img src="src/search.png" alt="search" />
+        <input type="search" placeholder="Найти..." />
       </div>
     </header>
     <div class="partners">

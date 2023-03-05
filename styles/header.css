@@ -1,6 +1,4 @@
-@media screen {
-  
-}
+
 
 
 .head {
@@ -8,7 +6,11 @@
   align-items:center;
   border-bottom: 1px solid lightgray;
 }
-
+.head-mobile{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .head__logo {
   background-image: url(../src/Qsoft.png);
   background-position: center;
@@ -21,7 +23,12 @@
 img {
   width: 15px;
 }
-
+.head__search-form-mobile {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid lightgrey;
+}
 .head__search-form {
   display: flex;
   align-items: center;
@@ -50,7 +57,13 @@ button{
   height: 20px;
   cursor: pointer;
 }
-
+.head__profile-mobile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px; 
+}
 .head__profile {
   display: flex;
   justify-content: center;
